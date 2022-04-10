@@ -111,8 +111,8 @@ func countOnes(mask []int8) (result int) {
 
 // applyArrayMask works like a bit mask. It returns a copy of ls with each nth element zeroed out if the nth element in
 // mask is zero. E.g:
-// ls = 	[1 2 3 4 5]
-// mask = 	[0 1 0 0 1]
+// ls =     [1 2 3 4 5]
+// mask =   [0 1 0 0 1]
 // result = [0 2 0 0 5]
 func applyArrayMask(ls []int, mask []int8) []int {
 	lsLen := len(ls)
