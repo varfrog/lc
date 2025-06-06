@@ -1,4 +1,4 @@
-package sort912
+package v1
 
 func sortArray(nums []int) []int {
 	if len(nums) <= 1 {
