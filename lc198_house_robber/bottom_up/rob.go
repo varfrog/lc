@@ -1,4 +1,4 @@
-package lc198v1
+package lc198bottomup
 
 func rob(nums []int) int {
 	n := len(nums)
